@@ -134,7 +134,3 @@ This project is licensed under the **MIT License**, allowing you to use, modify,
 ---
 
 **Thank you for choosing AchieveIO!** Join us on this journey and start turning your aspirations into accomplishments today.  
-
---- 
-
-Let me know if you'd like further refinements!
