@@ -61,13 +61,20 @@ From the provided mockups, AchieveIO demonstrates a design approach centered aro
 The project's folder hierarchy ensures clarity and modularity:  
 
 ```
-RevolutionApp/
+AchieveIO/
 │
-├── RevolutionAppApp.swift   // Main application entry point
-├── HomeView.swift           // Displays goal categories and user dashboard
-├── DetailCardView.swift     // Renders detailed views for individual goals
-├── Assets/                  // Icons, images, and app assets
-├── Preview Content/         // SwiftUI preview assets
+├── AchieveIOApp.swift         // Main application entry point
+├── Data/
+│   ├── SampleData.swift       // Contains sample data for testing
+├── Models/
+│   ├── RevolutionItem.swift   // Defines the structure of a revolution item
+│   ├── RevolutionItemManager.swift // Manages revolution items
+├── Views/
+│   ├── HomeView.swift         // Displays the main user dashboard
+│   ├── DetailCardView.swift   // Renders detailed views for specific items
+├── Assets/                    // App icons, images, and resources
+├── Preview Content/           // Assets for SwiftUI previews
+
 ```
 
 ---
